@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customer/rest/ImplDQMSTokenRes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customer/rest/ImplGetIFrameIntegrationTokenRes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customer/rest/ImplIFrameIntegrationTokenRes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customer/rest/apidocs/ImplDQMSTokenResGET.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customer/rest/services/Address/ImplRetrieveAddressImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customer/rest/services/DQMSToken/ImplGetDQMSTokenImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customer/rest/services/IFrameToken/ImplGetDQMSTokenImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customer/rest/services/IFrameToken/ImplGetIFrameIntegrationTokenImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customer/rest/services/ImplDQMSTokenResImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customer/rest/services/ImplGetIFrameIntegrationTokenResImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customer/rest/services/ImplIFrameIntegrationTokenResImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/customerprofile/rest/mapping/ImplMapCIHCreateCustomerProfileIDStructToRestCustomerPersonAddressIds.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/mnp/rest/services/serviceProvider/GetExistingServiceProviderImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/ordering/rest/services/order/ImplSearchOrderImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/payment/util/onepay/ImplOnePayReferenceObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/rest/ImplServiceBase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/rest/connectors/ImplISDPServices.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/rest/connectors/ImplSDPServicesImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/rest/errors/ImplErrorMessages.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/rest/util/ImplConfigurationUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/rest/util/ImplConsts.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/ImplReserveLogisticsDispatchAppointmentRes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/ImplReserveLogisticsDispatchAppoitmentRes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/ImplRetrieveLogisticDispatchAvailableAppointmentsSlotsRes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/mapping/ImplConvertTimeSlot2ImplTimeSlot.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/mapping/ImplMapImplIndividualIdentification2IndividualIdentification.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/mapping/ImplMapImplTimeSlot2TimeSlot.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/mapping/ImplMapTimeSlot2ImplTimeSlot.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/ImplReserveLogisticsDispatchAppointmentResImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/ImplRetrieveLogisticDispatchAvailableAppointmentsSlotsResImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/manageAppointment/ImplSDPReserveLogisticsDispatchAppointmentImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/manageAppointment/ImplSDPRetrieveLogisticDispatchAvailableAppointmentsSlotsImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/test/java/com/amdocs/cm/impl/billing/rest/services/billingAccount/ImplGetSubscriberTypeImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/test/java/com/amdocs/cm/impl/customer/rest/service/DQMSToken/ImplGetDQMSTokenImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/test/java/com/amdocs/cm/impl/customerprofile/rest/services/customer/ImplFindCallerByContactImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/test/java/com/amdocs/cm/impl/ebill/rest/ebp/service/bills/ImplRetrieveBillSummaryImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/test/java/com/amdocs/cm/impl/sdp/rest/ImplSDPRetrieveLogisticDispatchAvailableAppointmentsSlotsImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/test/java/com/amdocs/cm/impl/sdp/rest/service/manageAppointment/ImplSDPRetrieveLogisticDispatchAvailableAppointmentsSlotsImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/test/java/com/amdocs/cm/impl/sdp/rest/services/manageAppointment/ImplSDPReserveLogisticsDispatchAppointmentImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/test/java/com/amdocs/cm/impl/sdp/rest/services/manageAppointment/ImplSDPRetrieveLogisticDispatchAvailableAppointmentsSlotsImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-9-common/src/test/java/com/amdocs/cm/impl/support/rest/services/customerproblem/ImplRelocateFixedServicesSubmitImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/customerprofile/rest/data/ImplIFrameTokenDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplIndividualIdentification.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplLogisticDispatchAvailableAppointmentsSlotsInput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplLogisticDispatchAvailableAppointmentsSlotsOutput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplReserveLogisticsDispatchAppointmentInput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplReserveLogisticsDispatchAppointmentOutput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplSlot.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/950/bb/sin/widgetstore/bb/server/rp-ws-9-common/manageAppointment/target/generated-sources/amdocs/com/amdocs/sdp/ManageAppointmentWS.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/mtpos/rest/services/stockAvailability/ImplRetrieveStockAvailabilityImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/rest/connectors/ImplSDPServices.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/rest/connectors/ImplSDPServicesImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/rest/errors/ImplErrorMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/ImplSDPRetrievePrepaidBalanceByServiceIDRes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/apidocs/ImplSDPRetrievePrepaidBalanceByServiceIDResGET.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/ImplSDPRetrievePrepaidBalanceByServiceIDResImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/mapping/ImplMapRestAddressToSDPAddress.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/mapping/ImplMapSDPBalanceDetails2ImplBalanceDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/mapping/ImplMapSDPBalanceResponse2ImplBalanceDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/mapping/ImplMapSDPPartitionList2ImplPartitionList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/mapping/ImplMapSDPResourcePartitionList2ImplResourcePartitionList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/mapping/ImplMapSDPSubscriberAccount2ImplSubscriberAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/mapping/ImplMapSDPSubscriberAccountList2ImplSubscriberAccountList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/mapping/ImplMapSDPUsageSummary2ImplUsageSummary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/services/prepaidAccountManagement/ImplSDPRetrievePrepaidBalanceByServiceIDImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/util/ImplSDPConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/test/java/com/amdocs/cm/impl/sdp/rest/services/prepaidAccountManagement/ImplSDPRetrievePrepaidBalanceByServiceIDImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplBalanceDetails.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplPartion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplPartition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplPrepaidBalance.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplResourcePartition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplRetrievePrepaidBalanceByServiceIDOutput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplRetrievePrepaidBalanceByServiceIDRestInput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplRetrievePrepaidBalanceByServiceIDRestOutput.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplSubscriberAccount.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplUsage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplUsageList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-data-9-common/src/main/java/com/amdocs/cm/impl/sdp/rest/data/ImplUsageSummary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-ws-9-common/CheckEquipmentAvailability/target/generated-sources/amdocs/org/datacontract/schemas/_2004/_07/microtelecom/CheckAllocationEquipmentAvailablityInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/SingTel/vladimis_Optus/CM/v93_0/970/bb/opt/widgetstore/bb/server/rp-9-common/src/main/java/com/amdocs/cm/impl/billing/rest/services/billingAccount/ImplPostDeleteCreditCardImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$MAVEN_REPOSITORY$/amdocs/glx/sdp/SDPClientKit/9.5.4-SNAPSHOT/SDPClientKit-9.5.4-SNAPSHOT.jar!/com/amdocs/sdp/PrepaidAccountManagementServiceWS.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$MAVEN_REPOSITORY$/amdocs/glx/sdp/SDPClientKit/9.5.4-SNAPSHOT/SDPClientKit-9.5.4-SNAPSHOT.jar!/com/amdocs/sdp/PrepaidAccountManagementServiceWSRetrieveVoucherStatusInputs.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$MAVEN_REPOSITORY$/amdocs/glx/sdp/SDPClientKit/9.5.4-SNAPSHOT/SDPClientKit-9.5.4-SNAPSHOT.jar!/com/amdocs/sdp/PrepaidAccountManagementServiceWSRetrieveVoucherStatusResults.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$MAVEN_REPOSITORY$/amdocs/glx/sdp/SDPClientKit/9.5.4-SNAPSHOT/SDPClientKit-9.5.4-SNAPSHOT.jar!/com/singtel/group/chargecalculationandbalancemanagement/types/v1/Usage.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$MAVEN_REPOSITORY$/amdocs/glx/sdp/SDPClientKit/9.5.4-SNAPSHOT/SDPClientKit-9.5.4-SNAPSHOT.jar!/com/singtel/group/chargecalculationandbalancemanagement/types/v1/UsageSummary.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$MAVEN_REPOSITORY$/amdocs/glx/sdp/SDPClientKit/9.5.4-SNAPSHOT/SDPClientKit-9.5.4-SNAPSHOT.jar!/com/singtel/group/prepaidaccountmanagement/manageprepaidaccount/v1/RetrieveVoucherStatusFault.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$MAVEN_REPOSITORY$/amdocs/glx/sdp/SDPClientKit/9.5.4-SNAPSHOT/SDPClientKit-9.5.4-SNAPSHOT.jar!/com/singtel/group/prepaidaccountmanagement/types/v1/RetrievePrepaidBalanceByServiceID.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$MAVEN_REPOSITORY$/amdocs/glx/sdp/SDPClientKit/9.5.4-SNAPSHOT/SDPClientKit-9.5.4-SNAPSHOT.jar!/com/singtel/group/prepaidaccountmanagement/types/v1/RetrieveVoucherStatus.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/javarush/test/level10/lesson11/home07/Solution.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/mydemo/mydemo.iml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/mydemo/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/mydemo/src/main/java/com/example/Controller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/mydemo/src/main/java/com/example/MydemoApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/mydemo/src/main/java/com/example/RestController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/mydemo/src/main/java/com/example/myBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/mydemo/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/mydemo/src/test/java/com/example/Controller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Downloads/mydemo/src/test/java/com/example/MydemoApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/JavaSolutions/out/production/JavaSolutions/com/javarush/test/Egg2.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/JavaSolutions/out/production/JavaSolutions/com/javarush/test/Solution.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/JavaSolutions/src/com/javarush/test/Solution.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

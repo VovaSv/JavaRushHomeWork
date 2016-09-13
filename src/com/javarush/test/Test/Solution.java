@@ -1,0 +1,37 @@
+package com.javarush.test.Test;
+
+/* Вывод стек-трейса
+1. Создать таск - класс public static SpecialThread - на основании интерфейса Runnable
+2. SpecialThread должен выводить в консоль свой стек-трейс.
+Подсказка: main thread уже выводит в консоль свой стек-трейс.
+*/
+
+public class Solution {
+    public static void main(String[] args) throws InterruptedException {
+        Thread thread = new Thread(new SpecialThread());
+        thread.start();
+
+        System.out.println("***************** start For");
+
+        for (StackTraceElement element : Thread.currentThread().getStackTrace()) {
+            System.out.println(element);
+        }
+
+        //System.out.println("***************** End For");
+    }
+
+    public static class SpecialThread implements Runnable{
+
+
+        @Override
+        public void run()
+        {
+            System.out.println("***************SpecialThread*************");
+            for (StackTraceElement element : Thread.currentThread().getStackTrace()) {
+                System.out.println(element);
+            }
+
+
+        }
+    }
+}
