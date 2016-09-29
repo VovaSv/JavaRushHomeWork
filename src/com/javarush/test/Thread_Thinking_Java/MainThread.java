@@ -1,8 +1,6 @@
 package com.javarush.test.Thread_Thinking_Java;
 
-import java.util.ArrayList;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.*;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Lock;
@@ -794,6 +792,257 @@ public class MainThread
         }
         public static void main(String[] args) {
             EvenChecker.test(new AtomicEvenGenerator());
+        }
+    }
+
+
+
+    //: concurrency/CriticalSection.java
+// Синхронизация блоков вместо целых методов. Также демонстрирует защиту
+// неприспособленного к многопоточности класса другим классом
+// with a thread-safe one.
+
+    public static class Pair { // Not thread-safe
+        private int x, y;
+        public Pair(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+        public Pair() { this(0, 0); }
+        public int getX() { return x; }
+        public int getY() { return y; }
+        public void incrementX() { x++; }
+        public void incrementY() { y++; }
+        public String toString() {
+            return "x: " + x + ", y: " + y;
+        }
+        public class PairValuesNotEqualException
+                extends RuntimeException {
+            public PairValuesNotEqualException() {
+                super("Pair values not equal: " + Pair.this);
+            }
+        }
+        // Произвольный инвариант - обе переменные должны быть:
+        public void checkState() {
+            if(x != y)
+                throw new PairValuesNotEqualException();
+        }
+    }
+
+    // Защита класса Pair внутри приспособленного к потокам класса:
+    abstract static class PairManager {
+        AtomicInteger checkCounter = new AtomicInteger(0);
+        protected Pair p = new Pair();
+        private List<Pair> storage =
+                Collections.synchronizedList(new ArrayList<Pair>());
+        public synchronized Pair getPair() {
+            // Создаем копию, чтобы сохранить оригинал в безопасности:
+            return new Pair(p.getX(), p.getY());
+        }
+        // Предполагается, что операция занимает некоторое время
+        protected void store(Pair p) {
+            storage.add(p);
+            try {
+                TimeUnit.MILLISECONDS.sleep(50);
+            } catch(InterruptedException ignore) {}
+        }
+        public abstract void increment();
+    }
+
+    // Синхронизация всего метода:
+   public static class PairManager1 extends PairManager {
+        public synchronized void increment() {
+            p.incrementX();
+            p.incrementY();
+            store(getPair());
+        }
+    }
+
+    // Использование критической секции:
+    public static class PairManager2 extends PairManager {
+        public void increment() {
+            Pair temp;
+            synchronized(this) {
+                p.incrementX();
+                p.incrementY();
+                temp = getPair();
+            }
+            store(temp);
+        }
+    }
+
+   public static class PairManipulator implements Runnable {
+        private PairManager pm;
+        public PairManipulator(PairManager pm) {
+            this.pm = pm;
+        }
+        public void run() {
+            while(true)
+                pm.increment();
+        }
+        public String toString() {
+            return "Pair: " + pm.getPair() +
+                    " checkCounter = " + pm.checkCounter.get();
+        }
+    }
+
+    public static class PairChecker implements Runnable {
+        private PairManager pm;
+        public PairChecker(PairManager pm) {
+            this.pm = pm;
+        }
+        public void run() {
+            while(true) {
+                pm.checkCounter.incrementAndGet();
+                pm.getPair().checkState();
+            }
+        }
+    }
+
+     public static class CriticalSection {
+        // Сравнение двух подходов:
+        static void
+        testApproaches(PairManager pman1, PairManager pman2) {
+            ExecutorService exec = Executors.newCachedThreadPool();
+            PairManipulator
+                    pm1 = new PairManipulator(pman1),
+                    pm2 = new PairManipulator(pman2);
+            PairChecker
+                    pcheck1 = new PairChecker(pman1),
+                    pcheck2 = new PairChecker(pman2);
+            exec.execute(pm1);
+            exec.execute(pm2);
+            exec.execute(pcheck1);
+            exec.execute(pcheck2);
+            try {
+                TimeUnit.MILLISECONDS.sleep(500);
+            } catch(InterruptedException e) {
+                System.out.println("Sleep interrupted");
+            }
+            System.out.println("pm1: " + pm1 + "\npm2: " + pm2);
+            System.exit(0);
+        }
+        public static void main(String[] args) {
+            PairManager
+                    pman1 = new PairManager1(),
+                    pman2 = new PairManager2();
+            testApproaches(pman1, pman2);
+        }
+    }
+
+    //Для создания критических секций также можно воспользоваться явно созданными объектами Lock:
+//: concurrency/ExplicitCriticalSection.java
+// Использование объектов Lock для создания критических секций..
+    // Синхронизация целого метода:
+    public static class ExplicitPairManager1 extends PairManager {
+        private Lock lock = new ReentrantLock();
+        public synchronized void increment() {
+            lock.lock();
+            try {
+                p.incrementX();
+                p.incrementY();
+                store(getPair());
+            } finally {
+                lock.unlock();
+            }
+        }
+    }
+
+    // Использование критической секции:
+    public static class ExplicitPairManager2 extends PairManager {
+        private Lock lock = new ReentrantLock();
+        public void increment() {
+            Pair temp;
+            lock.lock();
+            try {
+                p.incrementX();
+                p.incrementY();
+                temp = getPair();
+            } finally {
+                lock.unlock();
+            }
+            store(temp);
+        }
+    }
+
+    public static class ExplicitCriticalSection {
+        public static void main(String[] args) throws Exception {
+            PairManager
+                    pman1 = new ExplicitPairManager1(),
+                    pman2 = new ExplicitPairManager2();
+            CriticalSection.testApproaches(pman1, pman2);
+        }
+    }
+
+
+//Синхронизация по другим объектам
+    public static class DualSynch {
+        private Object syncObject = new Object();
+        public synchronized void f() {
+            for(int i = 0; i < 5; i++) {
+                System.out.println("f()");
+                Thread.yield();
+            }
+        }
+        public void g() {
+            synchronized(syncObject) {
+                for(int i = 0; i < 5; i++) {
+                    System.out.println("g()");
+                    Thread.yield();
+                }
+            }
+        }
+    }
+
+    public static class SyncObject {
+        public static void main(String[] args) {
+            final DualSynch ds = new DualSynch();
+            new Thread() {
+                public void run() {
+                    ds.f();
+                }
+            }.start();
+            ds.g();
+        }
+    }
+
+//Локальная память потока
+//Если вы создаете объект ThreadLocal, для обращения к содержимому объекта можно использовать только методы get() и set().
+//Метод get() возвращает копию объекта, ассоцииро­ванного с потоком, a set() сохраняет свой аргумент в объекте потока, возвращая ранее хранившийся объект
+static class Accessor implements Runnable {
+    private final int id;
+    public Accessor(int idn) { id = idn; }
+    public void run() {
+        while(!Thread.currentThread().isInterrupted()) {
+            ThreadLocalVariableHolder.increment();
+            System.out.println(this);
+            Thread.yield();
+        }
+    }
+    public String toString() {
+        return "#" + id + ": " +
+                ThreadLocalVariableHolder.get();
+    }
+}
+
+    public static class ThreadLocalVariableHolder {
+        private static ThreadLocal<Integer> value =
+                new ThreadLocal<Integer>() {
+                    private Random rand = new Random(47);
+                    protected synchronized Integer initialValue() {
+                        return rand.nextInt(10000);
+                    }
+                };
+        public static void increment() {
+            value.set(value.get() + 1);
+        }
+        public static int get() { return value.get(); }
+        public static void main(String[] args) throws Exception {
+            ExecutorService exec = Executors.newCachedThreadPool();
+            for(int i = 0; i < 5; i++)
+                exec.execute(new Accessor(i));
+            TimeUnit.SECONDS.sleep(3);   // Небольшая задержка
+            exec.shutdownNow();          // Выход из всех объектов Accessor
         }
     }
 
